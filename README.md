@@ -7,7 +7,7 @@ https://app.vagrantup.com/mcandre/boxes/vagrant-debian-rust
 # EXAMPLE
 
 ```console
-$ cd test
+$ cd amd64/test
 $ vagrant up
 $ vagrant ssh -c "cd /vagrant && rustc hello.rs && ./hello"
 Hello World!
@@ -31,5 +31,6 @@ Hello World!
 # EXPORT
 
 ```console
-$ make vagrant-debian-rust.box
+$ sh -c "cd amd64 && make vagrant-debian-rust-amd64.box"
+$ sh -c "cd i386 && make vagrant-debian-rust-i386.box"
 ```
