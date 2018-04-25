@@ -2,7 +2,8 @@
 
 # VAGRANT CLOUD
 
-https://app.vagrantup.com/mcandre/boxes/vagrant-debian-rust
+* https://app.vagrantup.com/mcandre/boxes/vagrant-debian-rust-amd64
+* https://app.vagrantup.com/mcandre/boxes/vagrant-debian-rust-i386
 
 # EXAMPLE
 
